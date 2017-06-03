@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Emotions</title>
+    <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+        margin: 10px;
+    }
+    </style>
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/giphy2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gif Emotions</h1>
+        <!-- Rendered buttons will get dumped Here  -->
+        <div id="buttons-view"></div>
+        <form id="Emotions-form">
+            <label for="emotions-input">Add an Emotion</label>
+            <input type="text" id="emotions-input">
+            <br>
+            <!-- Button triggers new movie to be added -->
+            <input id="add-emotions" type="submit" value="Add Emotions">
+        </form>
+        <!-- Movies will get dumped dere -->
+        <div id="emotions-view"></div>
+    </div>
+</body>
+
+</html>
